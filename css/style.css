@@ -423,7 +423,7 @@ ul.kode_top_login_2  li i{
 .law_practice_area{
 	float:left;
 	width:100%;
-	padding:71px 0 40px;
+	padding:71px 0 55px;
 }
 .law_practice_area_hdg{
 	float:left;
@@ -1793,6 +1793,8 @@ position:absolute;
 	padding:36px 14px 63px 14px;
 	border-bottom:2px solid #ededed;
 	position:relative;
+	min-height: 318px;
+	border-radius: 12px;
 }
 .kode_services_caption::before{
 	position:absolute;
@@ -5988,11 +5990,7 @@ position:absolute;
 	display:inline-block;
 	color:#fff;
 }
-.kode_top_login_2 li a:hover,
-.kode_social_2 .kode_top_social_law_2 li a:hover,
-.kode_top_phon_2 li:hover i{
-	color:#333;
-}
+
 .kode_top_phon_2 li i{
 	margin-right:17px;
 	font-size:16px;
@@ -6001,7 +5999,7 @@ position:absolute;
 	float:right;
 }
 .kode_social_2 .kode_top_social_law_2{
-	border-right: 1px solid #b07786;
+	/* border-right: 1px solid #b07786; */
     float: left;
     padding-right: 30px;
 }
@@ -6200,7 +6198,7 @@ position:absolute;
 .kode_banner_law_caption{
 	position:absolute;
 	margin: 0 0 0 -573px;
-	top:264px;
+	top:200px;
 	left:50%;
 	right:0px;
 	bottom:0px;
@@ -6224,9 +6222,10 @@ position:absolute;
 	line-height: 50px;
 }
 .kode_banner_law_caption h3 span{
-	display:block;
-	font-size:33.71px;
-	line-height: 37px;
+	display: block;
+    font-size: 54px !important;
+    line-height: 70px;
+    font-weight: 600;
 }
 .kode_banner_law_caption strong{
 	font-size: 108.73px;
@@ -6239,6 +6238,8 @@ position:absolute;
 	display:inline-block;
 	margin-bottom:46px;
 	color: #000;
+	font-size: 22px;
+    font-weight: 500;
 }
 .kode_banner_law_caption span{
 	display:block;
@@ -8082,4 +8083,8 @@ pb-50 */
 
 .kode_blog_detail_content ol li a{
 	color: #0b57d0 !important;
+}
+
+.bx-viewport{
+	height: 80vh !important;
 }
