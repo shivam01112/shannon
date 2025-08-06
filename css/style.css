@@ -637,6 +637,7 @@ position:absolute;
 	margin:0px;
 	text-transform:uppercase;
 	margin-bottom:6px;
+	font-weight: 600;
 }
 .law_choose_us_row {
     float: left;
@@ -8062,7 +8063,18 @@ pb-50 */
 	letter-spacing: 0.2px;
     line-height: 26px;
     color: #000000;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;   
     margin: 0px;
+}
+
+.kode_blog_detail_content ol li{
+	letter-spacing: 0.2px;
+    line-height: 28px;
+    color: #000000;
+    font-size: 15px;  
+    margin: 15px 0px;
+	list-style: disc;
+}
+.kode_blog_detail_content ol{
+	margin-left: 35px;
 }
