@@ -4717,6 +4717,7 @@ position:absolute;
 	text-transform:uppercase;
 	font-weight:bold;
 	margin-bottom:11px;
+	color: #000;
 }
 .kode_blog_detail_content ul{
 	float:left;
@@ -8087,4 +8088,8 @@ pb-50 */
 
 .bx-viewport{
 	height: 80vh !important;
+}
+
+.new-blog-heading strong{
+
 }
