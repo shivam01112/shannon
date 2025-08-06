@@ -8102,4 +8102,12 @@ pb-50 */
 
 .kode_content_us_footer_row .icon i{
 	margin-top: 10px;
+	font-size: 20px !important;
+}
+
+.kode_content_us_footer_row .icon p a{
+	margin-top: 10px;
+	display: flex;
+    align-items: center;
+
 }
