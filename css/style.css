@@ -8031,12 +8031,12 @@ pb-50 */
 }
 .shn-footer a {
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .shn-footer a:hover {
   color: #33aaff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .shn-footer .shn-info ul {
@@ -8074,7 +8074,12 @@ pb-50 */
     font-size: 15px;  
     margin: 15px 0px;
 	list-style: disc;
+	width: 100%;
 }
 .kode_blog_detail_content ol{
 	margin-left: 35px;
+}
+
+.kode_blog_detail_content ol li a{
+	color: #0b57d0 !important;
 }
