@@ -8093,3 +8093,13 @@ pb-50 */
 .new-blog-heading strong{
 
 }
+
+.kode_content_us_footer_row .icon{
+	color: #fff;
+	    display: flex;
+    align-items: normal;
+}
+
+.kode_content_us_footer_row .icon i{
+	margin-top: 10px;
+}
